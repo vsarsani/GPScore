@@ -1,5 +1,5 @@
 # GenePrioritization
-A Gene Prioritization Framework designed for the summary GWAS Studies.
+A Gene Prioritization Framework designed for the summary GWAS Studies of the complex traits.
 
 Genome-Wide Association Studies(GWAS) for complex traits typically result in the many loci across the genome. Translating these GWAS findings into treatments may require an understanding of casual variants, target genes, and their biological mechanisms. 
 
