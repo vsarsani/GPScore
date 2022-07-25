@@ -72,6 +72,46 @@ for (g in 1:length(chr_list)){
   lead_variants  <- rbind(lead_variants,l_df)
 }
 
+
 return(lead_variants)
 
 }
+
+
+
+
+
+#' Construct Mapping Windows around the lead variant
+#'
+#' @param gwas_df  A Data Frame of Lead variants
+#' @param chr_col Column Name that contains CHROMOSOME
+#' @param pos_col Column Name that contains SNP position
+#' @param p_col Column Name that contains p-value 
+#' @param m_size A mapping window size in bp to pad lead variant(Default: 1.5MB upstream and 1.5MB downstream)
+#' @return A data frame of lead variant Window sizes
+#' @export
+#'
+#' @examples
+.leadmapWindows <- function(gwas_df,chr_col,pos_col,p_col,m_size=1500000,...){
+  #Check if inputs are valid
+  checkmate::assertDataFrame(gwas_df,col.names = "named",min.cols = 3)
+  checkmate::assertCharacter(chr_col,len = 1,any.missing = FALSE )
+  checkmate::assertCharacter(pos_col,len = 1,any.missing = FALSE )
+  checkmate::assertCharacter(p_col,len = 1,any.missing = FALSE )
+  checkmate::assert_double(m_size)
+
+  # Get lead variants
+  lead_df <- leadVariants(gwas_df=gwas_df,chr_col=chr_col,
+               pos_col=pos_col,p_col=p_col,p_cutoff=5E-08,w_size=500000)
+  
+# pad m_size 
+lw_df <- lead_df%>%mutate(start=get(pos_col)-m_size,stop=get(pos_col)+m_size)%>%
+  dplyr::select(chr_col,start,stop)%>%
+  mutate(start=case_when(start<0~ 1,TRUE ~ as.double(start)))
+return(lw_df)
+  
+}
+
+
+
+
