@@ -26,3 +26,55 @@ The following software should be available from your user path:
 - [MAGMA](https://ctg.cncr.nl/software/magma)
 - [PoPS](https://github.com/FinucaneLab/pops)
 
+The following [R](https://www.r-project.org/) (version 4.2.0) packages are required:
+
+   - [tidyverse](https://www.tidyverse.org/) 
+   - [devtools](https://CRAN.R-project.org/package=devtools) 
+
+
+
+## Installation
+
+Clone this repository on your system and install any missing dependencies. Estimated installation time (dependencies): 5-15 minutes.
+
+## Example dataset
+
+A dataset is taken from Asian Genetic Epidemiology Network (AGEN : https://blog.nus.edu.sg/agen/).
+GWAS meta-analysis (imputed to HapMap2) for adiponectin levels in up to 7,825 East Asians.
+
+
+```{bash}
+zcat data/AGEN_adiponectin_hapmap.txt.gz|head -5
+```
+
+This script will also verify whether required R packages are available and install them otherwise.
+
+
+
+The expected results for the analysis of this toy dataset are provided in the directory `results/` 
+
+## Tutorial
+
+A guided step-by-step analysis of the above toy dataset will be available soon:
+
+
+## Large-scale applications
+
+Our Nextflow pipeline allows the code contained in each of the R and shell scripts to be easily deployed on a computing cluster for large-scale applications.
+
+
+
+## Authors
+
+   - [Vishal Sarsani](vishalsarsani.com) (University of Massachusetts Amherst).
+
+
+
+## License
+
+This software is distributed under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+## Further references
+
+Read more about the broader framework of .
+
