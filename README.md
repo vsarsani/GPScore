@@ -66,7 +66,7 @@ Our Nextflow pipeline allows the code contained in each of the R and shell scrip
 
 ## Authors
 
-   - [Vishal Sarsani](vishalsarsani.com) (University of Massachusetts Amherst).
+   - [Vishal Sarsani]((https://vishalsarsani.com) (University of Massachusetts Amherst).
 
 
 
