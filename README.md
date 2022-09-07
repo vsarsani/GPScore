@@ -1,4 +1,4 @@
-# GenePrioritization
+# GenePrioritization ( Under4 Construction)
 A Gene Prioritization Framework designed for the summary GWAS Studies of the complex traits.
 
 Accompanying paper:
