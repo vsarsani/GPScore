@@ -40,12 +40,6 @@ The following [R](https://www.r-project.org/) (version 4.2.0) packages are requi
    - [metap](https://cran.r-project.org/web/packages/metap/index.html)
 
 
-## Usage
-
-The main notebook to calculate GPScore is GPscore.ipynb.
-
-Several other notebooks exists to help process the data from other tools 
-
 ## Example dataset
 
 A dataset is taken from Asian Genetic Epidemiology Network (AGEN : https://blog.nus.edu.sg/agen/).
@@ -56,11 +50,15 @@ GWAS meta-analysis (imputed to HapMap2) for adiponectin levels in up to 7,825 Ea
 zcat data/AGEN_adiponectin_hapmap.txt.gz|head -5
 ```
 
-## Tutorial
+## Usage and Tutorial
 
-A rough step-by-step analysis is below:
+The main notebook to calculate GPScore is GPscore.ipynb.
 
+Several other notebooks exists to help process the data from other tools 
 
+Here is outline of the notebooks to pre-process data
+- [tidyverse](https://www.tidyverse.org/) 
+- 
 ## Authors
 
    - [Vishal Sarsani]((https://vishalsarsani.com) (University of Massachusetts Amherst).
