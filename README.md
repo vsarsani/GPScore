@@ -1,5 +1,5 @@
-# GenePrioritization ( Under Construction)
-A Gene Prioritization Framework designed for the summary GWAS Studies of the complex traits.
+# GPScore 
+The Gene Priority Score (GPScore) is a combinatorial likelihood scoring formalism based on measures derived from 11 gene prioritization strategies and the physical distance to the transcription start site (TSS). Using GPScore, you can prioritize the most probable target genes underlying the GWAS-associated variants.
 
 Accompanying paper:
 
@@ -7,19 +7,17 @@ Accompanying paper:
 
 ## Overview
 
-Genome-Wide Association Studies(GWAS) for complex traits typically result in the many significant loci across the genome. Translating these GWAS findings into treatments may require an understanding of causal variants, target genes, and their biological mechanisms. 
+Genome-Wide Association Studies(GWAS) for complex traits typically result in many significant loci across the genome. Translating these GWAS findings into treatments may require an understanding of target genes and their biological mechanisms. 
 
-Identifying the underlying target genes for significant GWAS loci has the following challenges :a) Causal SNPs do not necessarily regulate the closest genes. b) Using only gene expression quantitative trait loci (eQTL)  or functional genomics approaches may explain the limited proportion of heritability. c) Locus-specific identification is challenging given the annotation quality. 
+The genetic variants linked to a certain trait may not always affect the closest gene and can even impact protein levels located far away. Various methods exist to identify the genes affected by these variants, but they have limitations, such as not being customizable to relevant disease/tissue data and producing conflicting results. GPScore combines multiple gene prioritization strategies and the physical distance to transcription start sites, allowing for customization and unbiased scoring. It can be applied to complex traits with limited training data and does not have individual-level data.
 
-
-Here we propose a gene prioritization framework to overcome this challenges. 
 
 
 ## Dependencies
 
-Recommended OS: Linux. Mac OS is not supported but should be compatible.
+Recommended OS: Any Linux. Mac OS is not supported but should be compatible.
 
-The following software should be available from your user path:
+Outputs from following software should be available in text or csv format to calculate GPScore:
 
 - [Nextflow](https://www.nextflow.io/)
 - [PLINK 1.9](https://www.cog-genomics.org/plink/1.9/)
