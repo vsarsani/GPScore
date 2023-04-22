@@ -14,7 +14,7 @@ The genetic variants linked to a certain trait may not always affect the closest
 ![Gpscore](./work/gpscore.jpg)
 
 
-## Dependencies
+## Data and software
 
 Recommended OS: Any Linux. Mac OS is not supported but should be compatible.
 
