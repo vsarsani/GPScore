@@ -61,7 +61,7 @@ Here is outline of the notebooks to pre-process data
 - 
 ## Authors
 
-   - [Vishal Sarsani]((https://vishalsarsani.com) (University of Massachusetts Amherst).
+   - [Vishal Sarsani](https://vsarsani.com).
 
 
 ## License
