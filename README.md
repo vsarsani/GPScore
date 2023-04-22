@@ -29,14 +29,15 @@ Outputs from following software/data should be available in text or csv format t
 - [EMS](https://www.finucanelab.org/data)
 - [Downstreamer](https://github.com/molgenis/systemsgenetics/wiki/Downstreamer)
 - [Epimap](https://personal.broadinstitute.org/cboix/epimap/links/pergroup/)
-- [GeneHancer](https://alkesgroup.broadinstitute.org/cS2G/)
-- [cS2G](https://alkesgroup.broadinstitute.org/cS2G/)
+- [GeneHancer](https://zenodo.org/record/7754032#.ZEP6AvzMIQ8)
+- [cS2G](https://zenodo.org/record/7754032#.ZEP6AvzMIQ8)
 
 The following [R](https://www.r-project.org/) (version 4.2.0) packages are required:
 
    - [tidyverse](https://www.tidyverse.org/) 
    - [devtools](https://CRAN.R-project.org/package=devtools) 
-
+   - [relaimpo](https://cran.r-project.org/web/packages/relaimpo/index.html)
+   - [metap](https://cran.r-project.org/web/packages/metap/index.html)
 
 
 ## Installation
