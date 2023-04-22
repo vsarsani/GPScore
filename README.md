@@ -16,8 +16,6 @@ The genetic variants linked to a certain trait may not always affect the closest
 
 ## Data and software
 
-Recommended OS: Any Linux. Mac OS is not supported but should be compatible.
-
 Outputs from following software/data should be available in text or csv format to calculate the GPScore:
 
 - [Gene to TSS Distances](https://github.com/FinucaneLab/pops/blob/master/example/data/utils/gene_annot_jun10.txt)
