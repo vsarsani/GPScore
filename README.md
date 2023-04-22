@@ -11,7 +11,7 @@ Genome-Wide Association Studies(GWAS) for complex traits typically result in man
 
 The genetic variants linked to a certain trait may not always affect the closest gene and can even impact protein levels located far away. Various methods exist to identify the genes affected by these variants, but they have limitations, such as not being customizable to relevant disease/tissue data and producing conflicting results. GPScore combines multiple gene prioritization strategies and the physical distance to transcription start sites, allowing for customization and unbiased scoring. It can be applied to complex traits with limited training data and does not have individual-level data.
 
-![Gpscore](./work/gpscore.jpg){:height="36px" width="36px"}
+![Gpscore](./work/gpscore.jpg){:height="20px" width="20px"}
 
 
 ## Dependencies
