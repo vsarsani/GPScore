@@ -3,7 +3,7 @@ The Gene Priority Score (GPScore) is a combinatorial likelihood scoring formalis
 
 Accompanying paper:
 
-
+Sarsani, Vishal, Brotman, S. M., Yin Xianyong, Y., Lillian Fernandes Silva, L. F., Laakso,M., & Spracklen, C. N. (2023). A multi-ancestry genome-wide meta-analysis, fine-mapping, and gene prioritization approach to characterize the genetic architecture of adiponectin.
 
 ## Overview
 
@@ -11,6 +11,7 @@ Genome-Wide Association Studies(GWAS) for complex traits typically result in man
 
 The genetic variants linked to a certain trait may not always affect the closest gene and can even impact protein levels located far away. Various methods exist to identify the genes affected by these variants, but they have limitations, such as not being customizable to relevant disease/tissue data and producing conflicting results. GPScore combines multiple gene prioritization strategies and the physical distance to transcription start sites, allowing for customization and unbiased scoring. It can be applied to complex traits with limited training data and does not have individual-level data.
 
+![image info](./work/gpscore.png)
 
 
 ## Dependencies
