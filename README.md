@@ -29,7 +29,7 @@ Outputs from following software/data should be available in text or csv format t
 - [EMS](https://www.finucanelab.org/data)
 - [Downstreamer](https://github.com/molgenis/systemsgenetics/wiki/Downstreamer)
 - [Epimap](https://personal.broadinstitute.org/cboix/epimap/links/pergroup/)
-- [GeneHancer]Files downloaded from (https://alkesgroup.broadinstitute.org/cS2G/)
+- [GeneHancer](https://alkesgroup.broadinstitute.org/cS2G/)
 - [cS2G](https://alkesgroup.broadinstitute.org/cS2G/)
 
 The following [R](https://www.r-project.org/) (version 4.2.0) packages are required:
