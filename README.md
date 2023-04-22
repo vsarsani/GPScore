@@ -18,12 +18,19 @@ The genetic variants linked to a certain trait may not always affect the closest
 
 Recommended OS: Any Linux. Mac OS is not supported but should be compatible.
 
-Outputs from following software should be available in text or csv format to calculate GPScore:
+Outputs from following software/data should be available in text or csv format to calculate the GPScore:
 
-- [Nextflow](https://www.nextflow.io/)
-- [PLINK 1.9](https://www.cog-genomics.org/plink/1.9/)
+- [Gene to TSS Distances](https://github.com/FinucaneLab/pops/blob/master/example/data/utils/gene_annot_jun10.txt)
 - [MAGMA](https://ctg.cncr.nl/software/magma)
 - [PoPS](https://github.com/FinucaneLab/pops)
+- [colo.susie](https://chr1swallace.github.io/coloc/articles/a06_SuSiE.html)
+- [SMR](https://yanglab.westlake.edu.cn/software/smr/#Overview)
+- [LDSC](https://github.com/bulik/ldsc/wiki/Partitioned-Heritability)
+- [EMS](https://www.finucanelab.org/data)
+- [Downstreamer](https://github.com/molgenis/systemsgenetics/wiki/Downstreamer)
+- [Epimap](https://personal.broadinstitute.org/cboix/epimap/links/pergroup/)
+- [GeneHancer]Files downloaded from (https://alkesgroup.broadinstitute.org/cS2G/)
+- [cS2G](https://alkesgroup.broadinstitute.org/cS2G/)
 
 The following [R](https://www.r-project.org/) (version 4.2.0) packages are required:
 
