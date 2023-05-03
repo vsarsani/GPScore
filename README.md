@@ -54,9 +54,7 @@ The main notebook to calculate GPScore is GPscore.ipynb.
 
 Several other notebooks exists to help process the data from other tools 
 
-Here is outline of the notebooks to pre-process data
-- [tidyverse](https://www.tidyverse.org/) 
-- 
+
 ## Authors
 
    - [Vishal Sarsani](https://vsarsani.com).
