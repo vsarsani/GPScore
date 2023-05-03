@@ -3,7 +3,9 @@ The Gene Priority Score (GPScore) is a combinatorial likelihood scoring formalis
 
 Accompanying paper:
 
->Sarsani, Vishal, Brotman, S. M., Yin Xianyong, Y., Lillian Fernandes Silva, L. F., Laakso,M., & Spracklen, C. N. (2023). A multi-ancestry genome-wide meta-analysis, fine-mapping, and gene prioritization approach to characterize the genetic architecture of adiponectin.
+> A multi-ancestry genome-wide meta-analysis, fine-mapping, and target gene prioritization to characterize the genetic architecture of adiponectin.
+Vishal Sarsani, Sarah M Brotman, Xianyong N Yin, Lilian Fernandes Silva, Markku Laakso, Cassandra N Spracklen
+medRxiv 2023.05.02.23289402; doi: https://doi.org/10.1101/2023.05.02.23289402
 
 ## Overview
 
